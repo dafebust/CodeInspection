@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2023-11-06T11:57:24.233">
+<file name="C:\Users\CltControl\eclipse-workspace\DiningExperience\src\main\java\DiningExperience\DiningExperience.java">
+<violation beginline="5" endline="96" begincolumn="31" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="DiningExperience" class="DiningExperience" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#useutilityclass" priority="1">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="72" endline="72" begincolumn="13" endcolumn="46" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Best Practices" package="DiningExperience" class="DiningExperience" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincaseinsensitivecomparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+</file>
+<file name="C:\Users\CltControl\eclipse-workspace\DiningExperience\src\main\java\DiningExperience\Email.java">
+<violation beginline="5" endline="5" begincolumn="24" endcolumn="31" rule="UnusedPrivateField" ruleset="Best Practices" package="DiningExperience" class="Email" variable="lastname" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'lastname'.
+</violation>
+<violation beginline="6" endline="6" begincolumn="24" endcolumn="31" rule="UnusedPrivateField" ruleset="Best Practices" package="DiningExperience" class="Email" variable="password" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'password'.
+</violation>
+<violation beginline="6" endline="6" begincolumn="24" endcolumn="38" rule="RedundantFieldInitializer" ruleset="Performance" package="DiningExperience" class="Email" variable="password" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'password'
+</violation>
+<violation beginline="6" endline="6" begincolumn="24" endcolumn="31" rule="ImmutableField" ruleset="Design" package="DiningExperience" class="Email" variable="password" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'password' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="7" endline="7" begincolumn="24" endcolumn="32" rule="UnusedPrivateField" ruleset="Best Practices" package="DiningExperience" class="Email" variable="deparment" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'deparment'.
+</violation>
+<violation beginline="8" endline="8" begincolumn="21" endcolumn="41" rule="UnusedPrivateField" ruleset="Best Practices" package="DiningExperience" class="Email" variable="defaultpasswordLength" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'defaultpasswordLength'.
+</violation>
+<violation beginline="8" endline="8" begincolumn="21" endcolumn="41" rule="ImmutableField" ruleset="Design" package="DiningExperience" class="Email" variable="defaultpasswordLength" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'defaultpasswordLength' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="9" endline="9" begincolumn="24" endcolumn="28" rule="UnusedPrivateField" ruleset="Best Practices" package="DiningExperience" class="Email" variable="email" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'email'.
+</violation>
+<violation beginline="11" endline="11" begincolumn="24" endcolumn="49" rule="UnusedPrivateMethod" ruleset="Best Practices" package="DiningExperience" class="Email" method="randomPassword" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'randomPassword(int)'.
+</violation>
+</file>
+</pmd>

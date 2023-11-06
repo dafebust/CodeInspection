@@ -1,0 +1,39 @@
+src/main/java/DiningExperience/DiningExperience.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/DiningExperience/DiningExperience.java:5:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/DiningExperience/DiningExperience.java:5:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/DiningExperience/DiningExperience.java:6:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/DiningExperience/DiningExperience.java:6:	NPathComplexity:	NPathComplexity: The method 'main(String[])' has an NPath complexity of 2496, current threshold is 200
+src/main/java/DiningExperience/DiningExperience.java:7:	CloseResource:	CloseResource: Ensure that resources like this Scanner object are closed after use
+src/main/java/DiningExperience/DiningExperience.java:7:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'scanner' could be declared final
+src/main/java/DiningExperience/DiningExperience.java:10:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'mealQuantity' is never used (overwritten on line 35)
+src/main/java/DiningExperience/DiningExperience.java:11:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'maxOrderQuantity' could be declared final
+src/main/java/DiningExperience/DiningExperience.java:12:	LongVariable:	LongVariable: Avoid excessively long variable names like specialOfferDiscount
+src/main/java/DiningExperience/DiningExperience.java:15:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'menu' could be declared final
+src/main/java/DiningExperience/DiningExperience.java:16:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'prices' could be declared final
+src/main/java/DiningExperience/DiningExperience.java:19:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/DiningExperience/DiningExperience.java:21:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/DiningExperience/DiningExperience.java:26:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/DiningExperience/DiningExperience.java:27:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'mealNumber' could be declared final
+src/main/java/DiningExperience/DiningExperience.java:31:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/DiningExperience/DiningExperience.java:34:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/DiningExperience/DiningExperience.java:37:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/DiningExperience/DiningExperience.java:40:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/DiningExperience/DiningExperience.java:50:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/main/java/DiningExperience/DiningExperience.java:57:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/main/java/DiningExperience/DiningExperience.java:63:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/DiningExperience/DiningExperience.java:66:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/DiningExperience/DiningExperience.java:69:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/DiningExperience/DiningExperience.java:70:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/DiningExperience/DiningExperience.java:71:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'confirmation' could be declared final
+src/main/java/DiningExperience/DiningExperience.java:72:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/DiningExperience/DiningExperience.java:73:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/DiningExperience/DiningExperience.java:75:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/DiningExperience/DiningExperience.java:76:	UnusedAssignment:	UnusedAssignment: The value assigned to variable 'totalCost' is never used
+src/main/java/DiningExperience/DiningExperience.java:81:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/DiningExperience/DiningExperience.java:81:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'meal' is not assigned and could be declared final
+src/main/java/DiningExperience/DiningExperience.java:83:	CloseResource:	CloseResource: Ensure that resources like this Scanner object are closed after use
+src/main/java/DiningExperience/DiningExperience.java:83:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'scanner' could be declared final
+src/main/java/DiningExperience/DiningExperience.java:85:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/DiningExperience/DiningExperience.java:86:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'quantity' could be declared final
+src/main/java/DiningExperience/DiningExperience.java:88:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/DiningExperience/DiningExperience.java:92:	AvoidBranchingStatementAsLastInLoop:	AvoidBranchingStatementAsLastInLoop: Avoid using a branching statement as the last in a loop.
