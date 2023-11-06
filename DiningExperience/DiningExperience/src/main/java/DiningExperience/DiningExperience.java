@@ -2,12 +2,15 @@ package DiningExperience;
 
 import java.util.Scanner;
 
-public class DiningExperience {
+public final class DiningExperience{
+    private DiningExperience() {
+        // Constructor privado para evitar la instanciación.
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int totalCost = 5; // base cost for a dining experience
         int mealCount = 0;
-        int mealQuantity = 0;
         int maxOrderQuantity = 100;
         int specialOfferDiscount = 0;
 
@@ -32,7 +35,7 @@ public class DiningExperience {
                 continue;
             }
             System.out.print("Enter the quantity: ");
-            mealQuantity = scanner.nextInt();
+            int mealQuantity = scanner.nextInt();
             if (mealQuantity <= 0) {
                 System.out.println("Invalid quantity. Please try again.");
                 continue;
@@ -69,15 +72,16 @@ public class DiningExperience {
         System.out.println("Total Cost: $" + totalCost);
         System.out.print("Confirm order (Y/N)? ");
         String confirmation = scanner.next();
-        if (confirmation.equalsIgnoreCase("Y")) {
+        if ("Y".equalsIgnoreCase(confirmation)) {
             System.out.println("Order confirmed. Total cost: $" + totalCost);
         } else {
             System.out.println("Order canceled.");
             totalCost = -1;
         }
+
     }
 
-    // Method to count the number of times a meal appears in the order
+    // Método para contar la cantidad de veces que un plato aparece en la orden
     public static int mealCount(String meal) {
         int count = 0;
         Scanner scanner = new Scanner(System.in);
